@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><diagram program="umlet" version="13.3">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>90</x>
+      <y>160</y>
+      <w>210</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>Bank
+--
+fileName = class()
++name:string
++pin:int
++balance:float
+--
+makeKey()
++add(account)
++remove(name,pin)
++get(name,pin)
++computeInterest()
++__str__()
++getkeys()
++save()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
